@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeCodeCamp product landing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a class="header-logo">
+          <div class="header-image-container">
+            <img
+              id="header-img"
+              src="image/pump-soap-solid.svg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          worldSanitize
+        </a>
+
+        <ul class="nav-links-container">
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#benefits" class="nav-link">Benefits</a></li>
+          <li><a href="#video--section" class="nav-link">Learn more</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="container hero">
+        <div class="hero-description">
+          <h1 class="hero--heading" id="contact">
+            Hand sanitizer to the world
+          </h1>
+          <p class="product--description">
+            The best product for your family and the best protection against
+            germs.
+          </p>
+          <form action="https://www.freecodecamp.com/email-submit)" id="form">
+            <label for="email">Enter email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Signup to our mailing list by entering your email"
+              required
+            />
+            <input id="submit" type="submit" value="Get started" />
+          </form>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="image/undraw_wash_hands_nwl2.svg"
+            alt="man in bathroom washing hands"
+            srcset=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="secondary--heading" id="benefits">Benefits</h2>
+        <div class="benefits">
+          <div class="benefit">
+            <div class="benefit-image-container">
+              <img src="image/undraw_doctor_kw5l.svg" alt="" srcset="" />
+            </div>
+
+            <div class="benefit-description">
+              <p>
+                Help ease the burden on medical personnel by taking precautions
+                against germs while keeping yourself safe.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-description">
+              <p>
+                Want to get back to a time you could talk to your neighbours
+                without risking infection? Help us donate handwash.
+              </p>
+            </div>
+            <div class="benefit-image-container">
+              <img src="image/undraw_neighbors_ciwb.svg" alt="" srcset="" />
+            </div>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-image-container">
+              <img src="image/undraw_quality_time_wiyl.svg" alt="" srcset="" />
+            </div>
+
+            <div class="benefit-description">
+              <p>
+                Spending quality time with your family should not only happen
+                when the world feels like it is ending.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="secondary--heading" id="video--section">Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/d914EnpU4Fo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </div>
+    </section>
+  </body>
+</html>
